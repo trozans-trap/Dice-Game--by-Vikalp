@@ -1,0 +1,154 @@
+*{
+	padding: 0% 0%;
+	margin: 0% 0%;
+}
+
+body{
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.navbar{
+	background: #21F20F;
+	height: 10%;
+	width: 100;
+	opacity: 0.7;
+}
+
+.navtext{
+	font-size: 2.1em;
+	font-family: 'Permanent Marker', cursive;
+	letter-spacing: 0.3em;
+	opacity: 1;
+}
+
+.counter{
+	position:relative; 
+     font-family : 'Permanent Marker', cursive;
+     font-size: 1.6em;
+     letter-spacing: 0.3em;
+     margin-left: 39%;
+     margin-top: 5%;
+     padding: 3% 3%;
+     border: 3px solid ;
+     border-radius: 100%; 
+}
+
+.main{
+	background: url("jockey.jpg");
+	/*box-shadow: 8% 8% 20% 5% #E0E4E8;*/
+	clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+	opacity: 0.9; 
+	background-size:cover;
+	background-repeat: no-repeat;
+     height: 120%;
+     width: 60%;
+	margin-left: 17%;
+	margin-top: 1.5%;
+	padding: 9% 5%;
+	color: #E0E4E8;
+	outline: 5px rgb(236, 227, 227);
+}
+
+.body{
+	margin: 3% 31% 1% 31% ;
+	border: 2px solid #F1371F;
+	border-radius: 15px;
+	height: 100%;
+	width: 38.7%;
+}
+
+.player1
+{
+    color: #E0E4E8;
+}
+
+.bold{
+   font-family: 'Permanent Marker', cursive;
+   font-size: 1.7em;
+   letter-spacing: 0.2em;
+   /*margin-top: 8%;*/
+}
+
+.dicebox{
+	margin-left:50%;
+	margin-top: 6%;
+}
+
+.diceimage{
+	transform: translate(-50%);
+    padding: 0% 0%;
+    border-radius: 5px;
+    height: 45%;
+    width: 45%;
+}
+
+.score{
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 3% 1%;
+	margin: 5% 34%;
+	font-family: 'Fredericka the Great',cursive;
+	font-weight: 680;
+	font-size: 1.2em;
+}
+
+.buttons{
+	margin: 0% 31%;
+	border: 2px solid #F1371F;
+	border-radius: 15px;
+	padding: 5% 5%;
+	position: relative;
+	width: 29%;
+}
+
+.newGame{ 
+	background: none;
+	border: none;
+	font-size: 1.1em;
+	letter-spacing: .12em;
+	font-family: 'Permanent Marker', cursive;
+	position: absolute;
+	margin:-6.5% 1% 5% 37%;
+}
+
+.rolldice{
+	background: none;
+	border: none;
+	font-size: 1.1em;
+	letter-spacing: .12em;
+	font-family: 'Permanent Marker', cursive;
+	position: absolute;
+	float: left;
+	margin:  -1.5% 11% 5% 6%;
+	/*margin-right: 5%;*/
+
+}
+.btn{
+	color: #E0E4E8;
+}
+
+.btn:hover{
+	letter-spacing: 0.23em;
+	font-size: 1.3em;
+	color: #1D84DF;
+	outline: none;
+}
+
+/*.footer{
+	padding: 6% 38%;
+	animation: change 10s ease-in infinite;
+	margin-top: 2%;
+	opacity: 0.8;
+
+}
+
+@keyframes change {
+   0%{background:url("https://images.unsplash.com/photo-1526157485112-5fb340a60461?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");}
+   25%{background:url("https://images.unsplash.com/photo-1431440869543-efaf3388c585?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");}
+   50%{background:url("https://images.unsplash.com/photo-1525783826280-5a6e928544c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");}
+   75%{background:url("https://images.unsplash.com/photo-1479981280584-037818c1297d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");}
+   100%{background:url("https://images.unsplash.com/photo-1526157485112-5fb340a60461?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");}
+}*/
