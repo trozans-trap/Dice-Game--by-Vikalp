@@ -36,6 +36,8 @@ function counter()
 
 newgm.addEventListener("click" , function(){
 	alert("Your Last Game Score is : " + score);
+	alert("Reload your Page");
+	rolldices.disabled = false;
      p1scores.textContent=0;
      score=0;
      t=0;
